@@ -1,0 +1,62 @@
+{
+  "node": "v24.20.0",
+  "playwright": "1.58.2",
+  "platform": "linux",
+  "campaigns": [
+    {
+      "starter": "spriglet",
+      "seed": 1,
+      "interfaceActions": 47,
+      "finalHash": "4d523c7bf30c3e1b103e7986e1a18e9beac75707152579c7902922be6658df5a",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "starter": "cindermoth",
+      "seed": 42,
+      "interfaceActions": 48,
+      "finalHash": "709451a2111f8b73b65d161dc4689797f0765ac077a216fc6e514874c8ae4b77",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "starter": "pebblefin",
+      "seed": 100,
+      "interfaceActions": 48,
+      "finalHash": "02fdfdce769753523391adcf2db328b7f98c3ff82603936469416b6da184ada4",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      }
+    }
+  ],
+  "checks": [
+    "keyboard navigation, visible focus, modal and map activation",
+    "complete campaign via interface: spriglet, seed 1",
+    "complete campaign via interface: cindermoth, seed 42",
+    "complete campaign via interface: pebblefin, seed 100",
+    "JSON download and transfer into a separate browser context",
+    "malformed, oversized, unsupported and inconsistent file imports preserve progress",
+    "hostile imported text is inert; active battle save transfer continues deterministically",
+    "defeat recovery and successful recruitment retry through interface",
+    "full party recruitment, reserve exchange, battle switch, retreat and leader controls",
+    "unavailable storage is reported and export still works",
+    "invalid stored data is preserved until an explicit new journey or import",
+    "labeled HTML controls; no external requests, page errors or console errors",
+    "offline server only exposes runtime allowlist"
+  ],
+  "externalRequests": [],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "serverReadyMs": 358.23,
+  "chromium": "145.0.7632.6",
+  "firstInteractiveMs": 658.41,
+  "starterElements": 108,
+  "battleElements": 160,
+  "endingElements": 165,
+  "elapsedMs": 44375
+}

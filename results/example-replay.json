@@ -1,0 +1,165 @@
+{
+  "starter": "spriglet",
+  "seed": 1,
+  "actions": [
+    {
+      "type": "choose",
+      "id": "spriglet"
+    },
+    {
+      "type": "move",
+      "to": "clover"
+    },
+    {
+      "type": "encounter"
+    },
+    {
+      "type": "strike"
+    },
+    {
+      "type": "strike"
+    },
+    {
+      "type": "befriend"
+    },
+    {
+      "type": "move",
+      "to": "quay"
+    },
+    {
+      "type": "rest"
+    },
+    {
+      "type": "move",
+      "to": "clover"
+    },
+    {
+      "type": "move",
+      "to": "grove"
+    },
+    {
+      "type": "encounter"
+    },
+    {
+      "type": "burst"
+    },
+    {
+      "type": "burst"
+    },
+    {
+      "type": "move",
+      "to": "hearth"
+    },
+    {
+      "type": "rest"
+    },
+    {
+      "type": "move",
+      "to": "kiln"
+    },
+    {
+      "type": "encounter"
+    },
+    {
+      "type": "strike"
+    },
+    {
+      "type": "strike"
+    },
+    {
+      "type": "befriend"
+    },
+    {
+      "type": "move",
+      "to": "hearth"
+    },
+    {
+      "type": "rest"
+    },
+    {
+      "type": "move",
+      "to": "kiln"
+    },
+    {
+      "type": "move",
+      "to": "forge"
+    },
+    {
+      "type": "encounter"
+    },
+    {
+      "type": "burst"
+    },
+    {
+      "type": "burst"
+    },
+    {
+      "type": "strike"
+    },
+    {
+      "type": "move",
+      "to": "tidecamp"
+    },
+    {
+      "type": "rest"
+    },
+    {
+      "type": "move",
+      "to": "pool"
+    },
+    {
+      "type": "move",
+      "to": "glass"
+    },
+    {
+      "type": "encounter"
+    },
+    {
+      "type": "burst"
+    },
+    {
+      "type": "burst"
+    },
+    {
+      "type": "move",
+      "to": "pool"
+    },
+    {
+      "type": "move",
+      "to": "tidecamp"
+    },
+    {
+      "type": "rest"
+    },
+    {
+      "type": "move",
+      "to": "bells"
+    },
+    {
+      "type": "move",
+      "to": "lighthouse"
+    },
+    {
+      "type": "encounter"
+    },
+    {
+      "type": "burst"
+    },
+    {
+      "type": "burst"
+    },
+    {
+      "type": "strike"
+    },
+    {
+      "type": "strike"
+    },
+    {
+      "type": "strike"
+    },
+    {
+      "type": "burst"
+    }
+  ],
+  "finalHash": "4d523c7bf30c3e1b103e7986e1a18e9beac75707152579c7902922be6658df5a"
+}

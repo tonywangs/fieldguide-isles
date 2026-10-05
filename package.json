@@ -1,0 +1,7 @@
+{
+  "name": "fieldguide-isles", "version": "1.0.0", "private": true, "type": "module",
+  "description": "An offline, deterministic creature-adventure field guide",
+  "scripts": {"start": "node scripts/serve.mjs", "test": "node --test tests/*.test.mjs", "test:browser": "node tests/browser.mjs", "verify": "npm test && npm run test:browser && npm run audit:tree", "audit:tree": "node scripts/audit.mjs"},
+  "devDependencies": {"@playwright/test": "1.58.2"},
+  "engines": {"node": ">=22"}
+}

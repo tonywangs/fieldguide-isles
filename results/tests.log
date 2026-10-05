@@ -1,0 +1,116 @@
+
+> fieldguide-isles@1.0.0 test
+> node --test tests/*.test.mjs
+
+✔ independently calculated damage, elemental matrix, rounding and guarding (4.003069ms)
+✔ xorshift32 known sequence; states and callers are not mutated (2.159572ms)
+✔ invalid, stale and repeated inputs do not bypass gates or advance RNG (1.151838ms)
+✔ battle order, energy exhaustion, free strike and exact guard example (3.926851ms)
+✔ friendship threshold is deterministic; full party uses reserves; swapping and switching (5.279902ms)
+✔ defeat heals all companions at shelter, preserves progress, and retry works (2.020488ms)
+✔ all 13 map nodes reachable in their authored progression; gates enforced (4.19547ms)
+✔ 300 legal winning campaigns: each starter, seeds 1–100; reload after every action (3543.302467ms)
+✔ seeded state-machine exploration: save/replay, legal and invalid inputs, bounded resources (2245.080422ms)
+✔ default and boundary seeds finish for every starter; ending rejects further gameplay (23.765949ms)
+✔ final encounter defeat preserves all beacons, restores the roster, and permits victory on retry (6.633274ms)
+✔ versioned saves round-trip setup, exploration, active battle, and ending including RNG (15.660327ms)
+✔ malformed, oversized, unsupported, extra-key and inconsistent imports are rejected atomically (23.020362ms)
+✔ hostile journal text remains text and fits the bounded schema (0.564379ms)
+✔ unavailable or full storage is reported; corrupt existing data is never replaced by loading (1.054914ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6287.793761
+npm notice
+npm notice New major version of npm available! 11.19.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice
+
+> fieldguide-isles@1.0.0 test:browser
+> node tests/browser.mjs
+
+PASS keyboard navigation, visible focus, modal and map activation
+PASS complete campaign via interface: spriglet, seed 1
+PASS complete campaign via interface: cindermoth, seed 42
+PASS complete campaign via interface: pebblefin, seed 100
+PASS JSON download and transfer into a separate browser context
+PASS malformed, oversized, unsupported and inconsistent file imports preserve progress
+PASS hostile imported text is inert; active battle save transfer continues deterministically
+PASS defeat recovery and successful recruitment retry through interface
+PASS full party recruitment, reserve exchange, battle switch, retreat and leader controls
+PASS unavailable storage is reported and export still works
+PASS invalid stored data is preserved until an explicit new journey or import
+PASS labeled HTML controls; no external requests, page errors or console errors
+PASS offline server only exposes runtime allowlist
+{
+  "node": "v24.20.0",
+  "playwright": "1.58.2",
+  "platform": "linux",
+  "campaigns": [
+    {
+      "starter": "spriglet",
+      "seed": 1,
+      "interfaceActions": 47,
+      "finalHash": "4d523c7bf30c3e1b103e7986e1a18e9beac75707152579c7902922be6658df5a",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "starter": "cindermoth",
+      "seed": 42,
+      "interfaceActions": 48,
+      "finalHash": "709451a2111f8b73b65d161dc4689797f0765ac077a216fc6e514874c8ae4b77",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "starter": "pebblefin",
+      "seed": 100,
+      "interfaceActions": 48,
+      "finalHash": "02fdfdce769753523391adcf2db328b7f98c3ff82603936469416b6da184ada4",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      }
+    }
+  ],
+  "checks": [
+    "keyboard navigation, visible focus, modal and map activation",
+    "complete campaign via interface: spriglet, seed 1",
+    "complete campaign via interface: cindermoth, seed 42",
+    "complete campaign via interface: pebblefin, seed 100",
+    "JSON download and transfer into a separate browser context",
+    "malformed, oversized, unsupported and inconsistent file imports preserve progress",
+    "hostile imported text is inert; active battle save transfer continues deterministically",
+    "defeat recovery and successful recruitment retry through interface",
+    "full party recruitment, reserve exchange, battle switch, retreat and leader controls",
+    "unavailable storage is reported and export still works",
+    "invalid stored data is preserved until an explicit new journey or import",
+    "labeled HTML controls; no external requests, page errors or console errors",
+    "offline server only exposes runtime allowlist"
+  ],
+  "externalRequests": [],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "serverReadyMs": 307.12,
+  "chromium": "145.0.7632.6",
+  "firstInteractiveMs": 499.35,
+  "starterElements": 108,
+  "battleElements": 160,
+  "endingElements": 165,
+  "elapsedMs": 44901
+}
+npm notice
+npm notice New major version of npm available! 11.19.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

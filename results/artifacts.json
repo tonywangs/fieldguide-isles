@@ -1,0 +1,202 @@
+{
+  "description": "Inventory excludes this report itself to avoid a recursive hash. Bounds below include the report.",
+  "runtimeFiles": 14,
+  "runtimeBytes": 60141,
+  "files": [
+    {
+      "file": ".gitignore",
+      "bytes": 82,
+      "sha256": "58dd637e6ba9a1cbe8e1892286a2ae09350aadee75872395e1684b63ff99ebd7"
+    },
+    {
+      "file": "README.md",
+      "bytes": 4401,
+      "sha256": "adf8db40f5abff785fa7d491657f07fa41a15fc7793487cfdcd220dc37d19205"
+    },
+    {
+      "file": "assets/bellray.svg",
+      "bytes": 1056,
+      "sha256": "c760042b154cb4a271b936d9e3f9b1599a881abeb719087fa4dab8682928f5b9"
+    },
+    {
+      "file": "assets/cindermoth.svg",
+      "bytes": 1062,
+      "sha256": "ec614f0bbf565e00e4d9c18910eafb26a697ed570c55403035dc4dec9b1dfb4b"
+    },
+    {
+      "file": "assets/fernwhorl.svg",
+      "bytes": 918,
+      "sha256": "32505c2456fde92050620540a3283224be610065ae12f5fe2693b4ad8286eb0d"
+    },
+    {
+      "file": "assets/island.svg",
+      "bytes": 1735,
+      "sha256": "c48e26f7abe94fd4c0004bc8e92d95443cdf56d8ea9d854d5d44fee87a32e908"
+    },
+    {
+      "file": "assets/kilnkit.svg",
+      "bytes": 1077,
+      "sha256": "ac7f6b69e60ded528ec34d77d2876d5a3ae34006d954b0d16d6b3c63c30674a8"
+    },
+    {
+      "file": "assets/lighthouse.svg",
+      "bytes": 1002,
+      "sha256": "029b10089948250829afdbf8153d85cb1ca734a776d6c9617233fd82141dc114"
+    },
+    {
+      "file": "assets/pebblefin.svg",
+      "bytes": 977,
+      "sha256": "b4794463be1731fd69f95c8fdd87fefa912f3c5c31038b30d7bc67dc5cba7e1a"
+    },
+    {
+      "file": "assets/spriglet.svg",
+      "bytes": 1048,
+      "sha256": "46ccc30ade14ee257ccc9242c8a157319b63f83724fd2f946d5bbb068adb1c4c"
+    },
+    {
+      "file": "docs/assets.md",
+      "bytes": 1401,
+      "sha256": "a57fe619177d38a301dd67683b8bc8b5b291028d736b7012c76be8fd235f2a50"
+    },
+    {
+      "file": "docs/design.md",
+      "bytes": 8377,
+      "sha256": "26d78e6e0b5b00950cbc023b5b418fd8942f1ee0bf17be0061b23207a64faa43"
+    },
+    {
+      "file": "docs/saves.md",
+      "bytes": 3024,
+      "sha256": "d3d576e750c9379a985bc8158943786203f8332d33b1c7bbd420448a8aeb8be7"
+    },
+    {
+      "file": "docs/verification.md",
+      "bytes": 6441,
+      "sha256": "626fd0e7619f59fa56ddd035860892e694821a586901283399247d6841819f0a"
+    },
+    {
+      "file": "index.html",
+      "bytes": 4061,
+      "sha256": "a70253cad7f4338684da88e0040cd66a2345a7a38920a2a9cef7a95ac23aa2b0"
+    },
+    {
+      "file": "package-lock.json",
+      "bytes": 2291,
+      "sha256": "06a66f1aa2d60499972be610590015fa5e582e8786d81d9640aa8202faab42cd"
+    },
+    {
+      "file": "package.json",
+      "bytes": 489,
+      "sha256": "d27f8d462ad55eb3055f30bc93048bfbf97fdcc7162e4a369c7cc0b5927db0ff"
+    },
+    {
+      "file": "results/battle-cindermoth.png",
+      "bytes": 280546,
+      "sha256": "85632e9e76c2aa454e766ddb7af630f08a9c8f7c16055bb20bc58d3b7505bb0c"
+    },
+    {
+      "file": "results/battle-mobile.png",
+      "bytes": 170318,
+      "sha256": "2e21817c6ec94a76d073c0a68b715b19c476c0b529ca92f1bd9bdb1d20e81255"
+    },
+    {
+      "file": "results/battle-spriglet.png",
+      "bytes": 277546,
+      "sha256": "aaa7aeeb319a59751e7958b48fd9cc740e809c1b1ece7183dfbc891ae271624b"
+    },
+    {
+      "file": "results/browser.json",
+      "bytes": 2059,
+      "sha256": "03edda82ac6545dda47de3bba3656b45105237d7e14b3ca1d7276a134cd5e293"
+    },
+    {
+      "file": "results/campaigns.json",
+      "bytes": 50379,
+      "sha256": "92f52d8881285b880cdc2ea25e7c435d5468ff3a7f84287d085d7160cacdc1ec"
+    },
+    {
+      "file": "results/ending-mobile.png",
+      "bytes": 140294,
+      "sha256": "6039a1fe18eafc2588a161a19e10d8d908bc76b075b1ffdc72f8abb81727eb6b"
+    },
+    {
+      "file": "results/example-replay.json",
+      "bytes": 2176,
+      "sha256": "2d53df6ae1caf0d249ad45048b5771afae2d66ae6c5b019f7ce3e313293bd09d"
+    },
+    {
+      "file": "results/exploration-desktop.png",
+      "bytes": 232503,
+      "sha256": "c4a2d85417ce0613ab45a94eacbfc718e904dae5894a865146dc123a28ed85d8"
+    },
+    {
+      "file": "results/starter-desktop.png",
+      "bytes": 174990,
+      "sha256": "2cfeaacef3881ca6bfd71edacf9cfca0be022f994be041731bfebaefc3746496"
+    },
+    {
+      "file": "results/tests.log",
+      "bytes": 5100,
+      "sha256": "339c3de791aab7e24bf70443775c8b507d74c77559b77fcdf7150babc8b77284"
+    },
+    {
+      "file": "scripts/audit.mjs",
+      "bytes": 1983,
+      "sha256": "675d6086598b1c2be8f1aa09b746e4e2f54d2733800ee56d2bd1e16101165459"
+    },
+    {
+      "file": "scripts/campaigns.mjs",
+      "bytes": 851,
+      "sha256": "abccf765ebc2c1c58719ce8e9f52a83a3ce14ab4b849de7a59d10405258d2d85"
+    },
+    {
+      "file": "scripts/serve.mjs",
+      "bytes": 1688,
+      "sha256": "9807d2fa086ea243ff279d2ab9f731ed8819062b10cfcbd5fb8653ba3e8e3807"
+    },
+    {
+      "file": "src/app.js",
+      "bytes": 15521,
+      "sha256": "7efa11acf9b4b16f1e62fa0894fb205b7af0cbf0fb81ae11c365d0e000ef49a0"
+    },
+    {
+      "file": "src/data.js",
+      "bytes": 4683,
+      "sha256": "89d73187c85622dafc7d94d19492d329c85d5673e3efc6e2a39abec0ea42faac"
+    },
+    {
+      "file": "src/engine.js",
+      "bytes": 8332,
+      "sha256": "10841d86c40e112fcd81d93b96cb54b231ab79c755f85049fd21452267a96927"
+    },
+    {
+      "file": "src/saves.js",
+      "bytes": 5451,
+      "sha256": "8175d5e6556eac39df71c7a2ca646b6cc7c335873f06e3db26a7814e9f79e79a"
+    },
+    {
+      "file": "style.css",
+      "bytes": 13218,
+      "sha256": "020d30be8bceba493772776476c89b3af5c58b67b56ca567e5484de50298e7eb"
+    },
+    {
+      "file": "tests/browser.mjs",
+      "bytes": 13918,
+      "sha256": "efc013ccc4a78e3ee9d2dee9e571bb346d62fda54565653db0276df38e5f8887"
+    },
+    {
+      "file": "tests/engine.test.mjs",
+      "bytes": 9019,
+      "sha256": "8d66a090249778acaad89573d9f38903423f9efbf8ca2ee263a31f0c2c0c32cf"
+    },
+    {
+      "file": "tests/helpers.mjs",
+      "bytes": 2152,
+      "sha256": "fb466897c30f87d59ce47bb59b7001afdb2809cb996132a657e62b272159e6b3"
+    },
+    {
+      "file": "tests/saves.test.mjs",
+      "bytes": 3471,
+      "sha256": "7cc6447f2b7c0666dd028535d31362aeb7ad6b11d934b737223418c3579419ff"
+    }
+  ]
+}
